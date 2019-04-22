@@ -1,0 +1,49 @@
+
+@media (min-width:480px) {
+  
+    div{
+        font-weight: bolder;
+    }
+  #header-img{
+      margin: 0 auto;
+    position: relative;  }
+}
+@media (min-width:680px) {
+  
+    div{
+        font-weight: bolder;
+        font-size: 30pt;
+    }
+  #header-img{
+      margin: 0 auto;
+    position: relative;  }
+}
+
+
+
+#nav-bar{
+    position: fixed;
+    
+   
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+#header-img {
+    width: 20%;
+    height: 20%;   
+}
+html{
+    position: relative;
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    html{
+        color: blue;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
