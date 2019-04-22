@@ -1,49 +1,108 @@
+html{
+    background-color: #00acee;
 
-@media (min-width:480px) {
-  
-    div{
-        font-weight: bolder;
-    }
-  #header-img{
-      margin: 0 auto;
-    position: relative;  }
 }
-@media (min-width:680px) {
-  
-    div{
-        font-weight: bolder;
-        font-size: 30pt;
-    }
-  #header-img{
-      margin: 0 auto;
-    position: relative;  }
+body{
+    position: relative;
+    margin: 0;
 }
 
-
-
-#nav-bar{
+#header{
     position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
     
+}
+ 
+#products-title{
+    display:flex;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+    margin-top: 15%;
+}
+.titles{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
    
 }
-header {
+
+#products{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+.products{
+  
+    width: 15rem;
+    height: 15rem;
+    border:  3px solid #035779;
+    margin: 5px;
+
+}
+@media (max-width:720px){
+.products{
+    width: 8rem;
+    height: 8rem;
+
+}
+#nav-bar{
     display: flex;
     flex-direction: column;
+   
+    
 }
+.nav-link{
+    width:82px;
+  
+}
+
+}
+#prices {
+  width: 400px;   
+  display: flex;
+
+  flex-direction: column;
+ 
+  margin: 5% auto 0 auto;
+ 
+}
+legend{
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: bold;
+    color: white;
+}
+
+
+
 #header-img {
     width: 20%;
     height: 20%;   
 }
-html{
+fieldset{
+    margin: 5% auto;
+    width: 400px;
+
+}
+footer {
+    
     position: relative;
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-    html{
-        color: blue;
-    }
-    p {
-      font-size: 10px;
-    }
-  }
+#submit-text{
+    position: relative;
+    margin: 2%;
+}
+#contact-us{
+    margin-right: 5px;
+}
